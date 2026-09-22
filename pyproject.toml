@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taskflow"
+version = "0.1.0"
+description = "Gerenciador de tarefas estilo Kanban no terminal — trabalho de Algoritmos e Estrutura de Dados I"
+requires-python = ">=3.10"
+
+[project.scripts]
+taskflow = "projeto_final.main:main"
+
+[tool.setuptools]
+packages = [
+    "modulo1_utils",
+    "modulo2_tad",
+    "modulo3_listas",
+    "modulo4_pilhas",
+    "modulo5_filas",
+    "projeto_final",
+]
