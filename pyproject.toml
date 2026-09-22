@@ -7,6 +7,9 @@ name = "taskflow"
 version = "0.1.0"
 description = "Gerenciador de tarefas estilo Kanban no terminal — trabalho de Algoritmos e Estrutura de Dados I"
 requires-python = ">=3.10"
+dependencies = [
+    "windows-curses; sys_platform == 'win32'",
+]
 
 [project.scripts]
 taskflow = "projeto_final.main:main"
