@@ -36,7 +36,7 @@ Cada pasta de módulo tem seu próprio `README.md` com o relatório técnico
 ## Como instalar e executar
 
 ```bash
-git clone <url-do-seu-repositorio>
+git clone https://github.com/mateusngz/taskflow
 cd taskflow
 pip install --user .
 ```
